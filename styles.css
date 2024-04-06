@@ -1,0 +1,226 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url("sanskarsh 7th-9th april.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+h1 {
+  font-family: "Bravada Arma", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: rgb(226, 229, 227);
+  margin: 40px 0px 20px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: aqua;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #9b3922;
+}
+
+#about {
+  padding-top: 80px;
+  text-align: left;
+}
+
+.container {
+  background-color: transparent; /* Set background color to transparent */
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  opacity: 0.7; /* Adjust the opacity as needed */
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#about h2 {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  color: #fff;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.contact-form form {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form form input[type="text"],
+.contact-form form input[type="tel"],
+.contact-form form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.sponsor-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-images img {
+  max-width: 200px;
+  margin: 10px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animated-image {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.transition-image {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.transition-image:hover {
+  opacity: 0.5;
+}
+
+#clockdiv {
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.7); /* Translucent white color */
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 85%; /* Adjust this value to position vertically */
+  left: 50%; /* Adjust this value to position horizontally */
+  transform: translate(-50%, -50%);
+  z-index: 9999; /* Ensure it's on top of other elements */
+}
+
+#clockdiv > div,
+#clockdiv div > span {
+  padding: 10px;
+  border-radius: 3px;
+  background: #0a0b0b;
+  display: inline-block;
+}
+
+#clockdiv .smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+#events {
+  display: flex;
+  padding: 20px;
+}
+
+.event {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.event img {
+  max-width: 80%; /* Adjust the image size */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.event .overlay a {
+  display: inline-block;
+  background-color: #0a0b0b; /* Button background color */
+  color: #ffffff; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  margin: 5px; /* Button margin */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Button border radius */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.event .overlay a:hover {
+  background-color: #333333; /* Button hover background color */
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px; /* Adjust max-width as needed */
+  margin: 0 auto;
+}
+
+#gallery img {
+  width: calc(30% - 20px); /* Adjust the width as needed */
+  margin-bottom: 20px;
+}
+
+.gallery-image {
+  margin-right: 10px; /* Adjust as needed */
+}
