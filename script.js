@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Generate image URLs dynamically for the images from DSC_0000 to DSC_0030
   var imageUrls = [];
   for (var i = 0; i <= 30; i++) {
-    var imageUrl = "DSC_" + pad(i, 4) + ".jpg"; // Pad with leading zeros
+    var imageUrl = "DSC_" + pad(i, 4) + ".JPG"; // Pad with leading zeros
     imageUrls.push(imageUrl);
   }
 
